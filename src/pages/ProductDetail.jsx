@@ -5,12 +5,10 @@ import { Link, useParams } from 'react-router-dom';
 
 import { ShoppingProductContext } from '../App';
 import useFetch from '../hooks/useFetch';
-import API from '../api';
-import { categorie } from '../constans';
-import Counter from '../components/Counter/Counter';
+import API from '../utils/api';
 
 import {BiArrowBack} from "react-icons/bi"
-import "../components/DetailPage/Detailpage.css"
+import "../components/DetailPage/Detailpage.scss"
 import { motion } from 'framer-motion';
 function ProductDetail() {
   const {categorie} = useParams();

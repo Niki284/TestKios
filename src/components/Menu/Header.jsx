@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
-import ROUTES from '../../routes';
+import ROUTES from '../../utils/routes';
 import './Header.css';
 import { VscMenu } from "react-icons/vsc";
 

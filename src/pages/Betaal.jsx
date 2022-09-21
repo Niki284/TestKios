@@ -4,7 +4,7 @@ import bancard from '../assets/img/foto/bancontact.png'
 import mastercard from '../assets/img/foto/mastercard.png'
 import paypal from '../assets/img/foto/paypal.jpg'
 import visa from '../assets/img/foto/visa.png'
-import '../components/Optie-betaal/betaal.css'
+import '../components/OptieBetaal/betaal.css'
 const Betaal = () => {
   return (
     <div className='betaal-flex'>

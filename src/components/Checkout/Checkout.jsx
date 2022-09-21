@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { useState } from 'react';
 import { BsFillBasket2Fill } from "react-icons/bs";
 import { ShoppingProductContext } from '../../App';
-import '../Checkout/Checkout.css'
+import '../Checkout/Checkout.scss'
 import Counter from '../Counter/Counter';
 function Checkout() {
     const [isOpen , setIsOpen ] = useState(false);

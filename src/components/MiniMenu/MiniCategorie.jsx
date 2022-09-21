@@ -1,8 +1,7 @@
 import React from 'react'
 import "../MiniMenu/MiniCategorie.css"
-import Products from '../../pages/Products';
 import { Link } from 'react-router-dom'
-import {categorie} from '../../constans'
+import {categorie} from '../../utils/constants'
 import { motion } from 'framer-motion';
 function MiniCategorie() {
   return (

@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import API from '../api';
-import { categorie } from '../constans'
+import API from '../utils/api';
 import useFetch from '../hooks/useFetch';
 import '../components/Product/Product.css'
 import { motion } from 'framer-motion';

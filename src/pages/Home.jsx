@@ -1,9 +1,8 @@
 
 import { Link } from 'react-router-dom'
-import {categorie} from '../constans'
+import {categorie} from '../utils/constants'
 import "../components/categorie.css"
 import { motion } from "framer-motion";
-import Products from './Products';
 const Home = () => {
   return (
 

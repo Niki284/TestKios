@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import ROUTES from "../routes";
 import React from "react";
-import { getUrl } from "../helper";
+import { getUrl } from "../utils/helper";
 
 
 
