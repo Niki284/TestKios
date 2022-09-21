@@ -1,2 +1,2 @@
-# TestKios
-TestKios
+# Kiosk
+Kiosk

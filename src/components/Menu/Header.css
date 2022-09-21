@@ -1,0 +1,69 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: gainsboro;
+  border: 2px solid;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  margin: 2rem;
+}
+
+.header .header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-winkel__btn {
+  height: 3rem;
+  width: 3rem;
+}
+
+.header .header-winkel__btn svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.header > .header-menu {
+  display: none;
+}
+
+.header.active {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header.active ul {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header.active ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.header.active .header-menu__link {
+  text-decoration: none;
+  padding: 0.3rem;
+  border-radius: 0.6rem;
+  border: 1px solid;
+  -webkit-transition: 0.6s all;
+  transition: 0.6s all;
+}
+
+.header.active .header-menu__link:hover {
+  background-color: burlywood;
+  color: white;
+}
+/*# sourceMappingURL=Header.css.map */

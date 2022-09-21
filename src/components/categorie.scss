@@ -1,0 +1,30 @@
+
+.categorie {
+    display: flex;
+    justify-content: center;font-size: 1.3rem;
+    
+    .categorie--li {
+        text-decoration: none; color: black; margin: 0.2rem;
+    }
+    .categorie--list {
+       
+        .categorie--link {
+            display: grid;
+            justify-items: center;
+            list-style-type: none;
+            margin: 1rem;
+            background-color: white;
+            border-radius: 0.5rem;
+        }
+        .categorie--img {
+           border-radius: 0.5rem;
+           padding: 0.3rem;
+        }
+        
+        .categorie--link:hover{
+            background-color: chartreuse;
+            color: white;
+            
+        }
+    }
+}

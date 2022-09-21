@@ -1,0 +1,151 @@
+
+{
+    "lattes": [
+        {
+            "id":"40",
+            "name": "Caffe Latte",
+            "picture": "img/drink2.png",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        },
+        {
+            "id":"41",
+            "name": "Iced Caffe Latte",
+            "picture": "img/drinks.png",
+            "info": [
+                "cofie",
+                "Melk",
+                "warme water"
+            ]
+        },
+        {
+            "id":"42",
+            "name": "Iced Starbucks Blonde Latte",
+            "picture": "img/drinks.png",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        }
+    ],
+    "cappuchinos": [
+        {
+            "id":"43",
+            "name": "Cappuccino",
+            "picture": "img/drinks.png",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        },
+        {
+            "id":"44",
+            "name": "Cold Foam Iced Cappuccino",
+            "picture": "img/drinks.png",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        },
+        {
+            "id":"45",
+            "name": "Classic Iced Cappuccino",
+            "picture": "img/drinks.png",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        }
+    ],
+    "americanos": [
+        {
+            "id":"46",
+            "name": "Caffe Americano",
+            "picture": "img/drink3.png",
+            "price": "8$",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        },
+        {
+            "id":"47",
+            "name": "Iced Caffe Americano",
+            "picture": "img/drink2.png",
+            "price": "4.2$",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        }
+    ],
+    "espressos": [
+        {
+            "id":"48",
+            "name": "Espresso",
+            "picture": "img/drink3.png",
+            "price": "12$",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        },
+        {
+            "id":"49",
+            "name": "Espresso Macchiato",
+            "picture": "img/drinks.png",
+            "price": "3$",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        },
+        {
+            "id":"50",
+            "name": "Espresso Con Panna",
+            "picture": "img/drink2.png",
+            "price": "6.2$",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        }
+    ],
+    "cortado": [
+        {
+            "id":"51",
+            "name": "Flat White",
+            "picture": "img/drink3.png",
+            "price": "5.5$",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        },
+        {
+            "id":"52",
+            "name": "Cartado",
+            "picture": "img/drinks.png",
+            "price": "2$",
+            "info": [
+                    "cofie",
+                    "Melk",
+                    "warme water"
+                ]
+        }
+        
+    ]
+}

@@ -1,0 +1,30 @@
+.detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.4rem;
+}
+
+.detail .detail--back svg {
+  margin: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.detail .detail-content {
+  margin: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.detail .detail-content .detail__content--foto {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: 2px solid;
+}
+/*# sourceMappingURL=Detailpage.css.map */

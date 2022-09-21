@@ -1,0 +1,36 @@
+.categorie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.3rem;
+}
+
+.categorie .categorie--li {
+  text-decoration: none;
+  color: black;
+  margin: 0.2rem;
+}
+
+.categorie .categorie--list .categorie--link {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  list-style-type: none;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.categorie .categorie--list .categorie--img {
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+
+.categorie .categorie--list .categorie--link:hover {
+  background-color: chartreuse;
+  color: white;
+}
+/*# sourceMappingURL=categorie.css.map */
